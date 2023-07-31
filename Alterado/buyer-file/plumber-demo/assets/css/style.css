@@ -793,6 +793,11 @@ ul li.show .sub-menu {
 	padding-bottom: 0px;
 	border-top: 1px solid #ebebeb;
 }
+
+.project-port {
+	padding-bottom: 110px !important;
+}
+
 .project .section-title {
 	text-align: center;
 }
@@ -804,6 +809,11 @@ ul li.show .sub-menu {
 
 .project-item .content {
 	padding: 25px 20px;
+}
+
+.project-item .content2 {
+    text-align: center;
+    padding: 15px 0px;
 }
 
 .project-item .content h3 a {
@@ -854,7 +864,7 @@ ul li.show .sub-menu {
 
 .project-item .post-thumb .overlay-search-link {
 	position: absolute;
-	left: 50%;
+	left: 55%;
 	top: 50%;
 	margin-top: -23px;
 	margin-left: -46px;
@@ -2928,8 +2938,8 @@ blockquote:before {
 
 .portfolio-massorny .project-item .post-thumb .overlay-search-link,
 .portfolio-style2 .project-item .post-thumb .overlay-search-link {
-	left: 30%;
-    top: 45%;
+	left: 60%;
+    top: 50%;
 	text-align: center;
 }
 
