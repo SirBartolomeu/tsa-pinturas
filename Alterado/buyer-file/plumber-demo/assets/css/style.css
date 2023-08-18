@@ -165,6 +165,55 @@ textarea {
 	margin: 0px 0px 0px 0px;
 }
 
+.page-header-service {
+	text-align: center;
+	background-image: url(../images/service.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+	/* text-shadow:-1px 0px 0px black,
+	1px 0px 0px black,
+	0px -1px 0px black,
+	0px 1px 0px black; */
+}
+
+.page-header-about {
+	text-align: center;
+	background-image: url(../images/about.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+}
+
+.page-header-portfolio {
+	text-align: center;
+	background-image: url(../images/projects.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+}
+
+.page-header-contact {
+	text-align: center;
+	background-image: url(../images/contact.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+}
+
+
 .page-header-shop {
 	text-align: center;
 	background-image: url(../../images/blog/page-header-bg2.jpg);
@@ -178,7 +227,12 @@ textarea {
 
 
 .page-header-shop .overlay,
-.page-header .overlay {
+.page-header .overlay,
+.page-header-about .overlay,
+.page-header-contact .overlay,
+.page-header-portfolio .overlay,
+.page-header-service .overlay 
+{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -233,6 +287,15 @@ textarea {
 }
 
 .page-header .breadcrumb > li + li:before {
+    content: '\f105';
+    font-family: FontAwesome;
+	padding-right: 10px;
+}
+
+.page-header-service .breadcrumb > li + li:before,
+.page-header-about .breadcrumb > li + li:before,
+.page-header-contact .breadcrumb > li + li:before,
+.page-header-portfolio .breadcrumb > li + li:before {
     content: '\f105';
     font-family: FontAwesome;
 	padding-right: 10px;
