@@ -221,6 +221,11 @@
 
 
 @media screen and (min-width: 992px) {
+
+	.about-sm{
+		visibility: hidden;
+	}
+	
 	ul li:hover > .sub-menu {
 		opacity: 1;
 		visibility: visible;
@@ -263,6 +268,15 @@
 	}
 }
 @media screen and (max-width: 991px) {
+
+	.about-bg {
+		visibility: hidden;
+	}
+
+	.about-sm{
+		visibility: visible !important;
+	}
+
 	#header .logo {
 	    width: 25%;
 	    float: left;
