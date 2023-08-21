@@ -84,6 +84,11 @@ a:hover, a:focus, a:active, a {
 /*-----------------------------------------------
     3        #  Global Styles
 ------------------------------------------------*/
+
+.img-home{
+	max-height: 86.67px;
+}
+
 .section-title {
 	margin-bottom: 50px;
 }
@@ -139,6 +144,7 @@ a:hover, a:focus, a:active, a {
 
 .post-thumb img {
 	width: 100%;
+	max-height: 220px;
 }
 
 input {
@@ -1470,7 +1476,7 @@ ul li.show .sub-menu {
 }
 
 .client-area .client-item-inner img {
-	width: 100%;
+	width: 75%;
 }
 
 
