@@ -351,7 +351,7 @@ textarea {
 #header .logo {
 	width: 20%;
 	float: left;
-	padding: 25px 0;
+	padding: 25px 25px;
 }
 
 #header .contact-place {
@@ -499,6 +499,7 @@ textarea {
 .menu-logo {
 	display: none;
 	padding-top: 10px;
+	padding-bottom: 5px;
 	float: left;
 }
 
@@ -515,7 +516,7 @@ textarea {
 .menu .navbar-menu>li {
 	display: inline-block;
 	list-style: none;
-	padding: 0 20px;
+	padding: 10px 20px;
 }
 
 .menu .navbar-menu>li>a {
