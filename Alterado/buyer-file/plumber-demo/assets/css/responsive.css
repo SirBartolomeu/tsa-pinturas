@@ -269,6 +269,10 @@
 }
 @media screen and (max-width: 991px) {
 
+	.primary-menu{
+		padding-bottom: 10px;
+	}
+
 	.about-bg {
 		display: none;
 	}
@@ -964,6 +968,11 @@
 }
 
 @media screen and (max-width: 640px) {
+	
+	.client-area .client-item-inner img {
+		width: 50%;
+	}
+	
 	.testimonial {
 	    position: absolute;
 	    left: 0px;
@@ -1199,6 +1208,16 @@
 
 @media screen and (max-width: 500px) {
 
+	
+	.news-letter-inner form button {
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+
+	button, input, optgroup, select, textarea {
+		margin: -10px
+	}
+
 
 	.item-two > .text .itext3 {
 	   display: none;
@@ -1324,6 +1343,20 @@
 
 
 @media screen and (max-width: 400px) {
+
+	.news-letter-inner form button {
+		padding-bottom: 16px;
+		padding-top: 14px;
+	}
+
+	button, input, optgroup, select, textarea {
+		margin: 0px;
+	}
+
+	.client-area .client-item-inner img {
+		width: 35%;
+	}
+
 	.cd-container-inner .cd-item {
 	    width: 100%;
 	    float: none;
