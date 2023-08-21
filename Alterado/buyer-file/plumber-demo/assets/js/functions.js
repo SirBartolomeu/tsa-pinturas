@@ -187,8 +187,14 @@ var swiper = new Swiper('.best-service-container', {
 // client section
 var swiper = new Swiper('.client-slider-container', {
     spaceBetween: 20,
-    grabCursor: false,
-    // autoplay: 3000,
+    grabCursor: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    disableOnInteraction: false,
+    speed: 3000,
+    loop: true,
     slidesPerView: 5,
      breakpoints: {
             1024: {

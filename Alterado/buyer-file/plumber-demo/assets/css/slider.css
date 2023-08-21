@@ -35,18 +35,21 @@
 	top: 35%;
 	text-align: right;
 	text-transform: uppercase;
+	/* text-shadow: 2px 2px #000000; */
 }
 
 .item-one .text h2 {
 	font-size: 38px;
 	font-weight: 700;
 	color: #2f2f2f;
+	/* text-shadow: 2px 2px #000000; */
 }
 
 .item-one .text h1 {
 	font-size: 92px;
 	color: #ffc527;
 	font-weight: 700;
+	text-shadow: 2px 2px #000000;
 }
 
 
@@ -57,8 +60,10 @@
 }
 
 .item-two > .text {
+	/* box-shadow: 20px 20px 20px 20px;
+	background: rgba(220,220,220, 0.7); */
 	position: absolute;
-	width: 47%;
+	width: 34%;
 	left: 0;
 	top: 20%;
 	text-transform: uppercase;
@@ -69,7 +74,9 @@
 .item-two > .text .itext1 {
 	font-size: 78px;
 	font-weight: 400;
-	color: #2f2f2f;
+	color: #ffc527;
+	/* color: #2f2f2f; */
+	text-shadow: 2px 2px #000000;
 }
 
 .item-two > .text .itext2 {
@@ -77,12 +84,20 @@
 	font-weight: 400;
 	color: #ffc527;
 	line-height: 75px;
+	text-shadow: 2px 2px #000000;
 }
 
 .item-two > .text .itext3 {
+	text-shadow: 2px 2px #000000;
 	font-size: 30px;
 	font-weight: 400;
-	color: #2f2f2f;
+	/* color: #2f2f2f; */
+	color: white;
+	background: #403f3f;
+	box-shadow: 10px 10px 10px 10px black;
+
+	padding: 5px;
+	width: fit-content;
 	line-height: 36px;
 	font-weight: 700;
 	margin-top: 7px;
@@ -90,6 +105,7 @@
 
 .item-three .custom-btn,
 .item-two .custom-btn {
+	box-shadow: 10px 10px 10px 10px;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
@@ -122,6 +138,8 @@
 }
 
 .item-three .text {
+	/* box-shadow: 10px 10px 10px 10px;
+    background: rgba(220, 220, 220, 0.8); */
 	position: absolute;
 	width: 50%;
 	left: 0;
@@ -135,7 +153,7 @@
 	font-size: 30px;
 	line-height: 42px;
 	font-weight: 700;
-	color: #fff;
+	color: black;
 	display: block;
 }
 
@@ -145,6 +163,7 @@
 	color: #ffc527;
 	display: block;
 	line-height: 80px;
+	text-shadow: 1px 1px #000000;
 }
 
 .item-three .text .itext3 {
@@ -154,6 +173,7 @@
 	background: #403f3f;
 	padding: 6px 10px;
 	display: inline-block;
+	box-shadow: 10px 10px 10px 10px black;
 }
 
 .item-three ul {
@@ -164,7 +184,7 @@
 	font-size: 22px;
 	line-height: 36px;
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 	list-style: none;
 }
 
